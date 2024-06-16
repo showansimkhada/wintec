@@ -1,0 +1,15 @@
+H:\IT\Save\New folder\CSE_Dept_application\CSE_Dept_application\bin\Debug\CSE_Dept_application.exe.config
+H:\IT\Save\New folder\CSE_Dept_application\CSE_Dept_application\bin\Debug\CSE_DEPT.mdb
+H:\IT\Save\New folder\CSE_Dept_application\CSE_Dept_application\bin\Debug\CSE_Dept_application.exe
+H:\IT\Save\New folder\CSE_Dept_application\CSE_Dept_application\bin\Debug\CSE_Dept_application.pdb
+H:\IT\Save\New folder\CSE_Dept_application\CSE_Dept_application\bin\Debug\CSE_Dept_application.xml
+H:\IT\Save\New folder\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.vbprojResolveAssemblyReference.cache
+H:\IT\Save\New folder\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.Course_Form.resources
+H:\IT\Save\New folder\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.FacultyForm.resources
+H:\IT\Save\New folder\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.LoginForm.resources
+H:\IT\Save\New folder\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.Resources.resources
+H:\IT\Save\New folder\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.SelectionForm.resources
+H:\IT\Save\New folder\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.vbproj.GenerateResource.Cache
+H:\IT\Save\New folder\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.exe
+H:\IT\Save\New folder\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.xml
+H:\IT\Save\New folder\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.pdb

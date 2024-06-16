@@ -1,0 +1,171 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CSE_Dept_application
+</name>
+</assembly>
+<members>
+<member name="T:CSE_Dept_application.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CSE_Dept_application.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CSE_Dept_application.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSet.CourseDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSet.FacultyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSet.LogInDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSet.StudentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSet.Student_CourseDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSet.CourseRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSet.FacultyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSet.LogInRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSet.StudentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSet.Student_CourseRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSet.CourseRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSet.FacultyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSet.LogInRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSet.StudentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSet.Student_CourseRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSetTableAdapters.CourseTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSetTableAdapters.FacultyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSetTableAdapters.LogInTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSetTableAdapters.StudentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSetTableAdapters.Student_CourseTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:CSE_Dept_application.CSE_DEPTDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(CSE_Dept_application.CSE_DEPTDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:CSE_Dept_application.CSE_DEPTDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(CSE_Dept_application.CSE_DEPTDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:CSE_Dept_application.CSE_DEPTDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(CSE_Dept_application.CSE_DEPTDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:CSE_Dept_application.CSE_DEPTDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:CSE_Dept_application.CSE_DEPTDataSetTableAdapters.TableAdapterManager.UpdateAll(CSE_Dept_application.CSE_DEPTDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:CSE_Dept_application.CSE_DEPTDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

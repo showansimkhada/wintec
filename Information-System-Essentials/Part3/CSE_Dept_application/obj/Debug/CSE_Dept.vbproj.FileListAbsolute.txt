@@ -1,0 +1,17 @@
+C:\Users\Admin\Desktop\Information Essential Systems\Assignment\CSE_Dept_application\CSE_Dept_application\bin\Debug\CSE_DEPT.mdb
+C:\Users\Admin\Desktop\Information Essential Systems\Assignment\CSE_Dept_application\CSE_Dept_application\bin\Debug\CSE_Dept_application.exe.config
+C:\Users\Admin\Desktop\Information Essential Systems\Assignment\CSE_Dept_application\CSE_Dept_application\bin\Debug\CSE_Dept_application.exe
+C:\Users\Admin\Desktop\Information Essential Systems\Assignment\CSE_Dept_application\CSE_Dept_application\bin\Debug\CSE_Dept_application.pdb
+C:\Users\Admin\Desktop\Information Essential Systems\Assignment\CSE_Dept_application\CSE_Dept_application\bin\Debug\CSE_Dept_application.xml
+C:\Users\Admin\Desktop\Information Essential Systems\Assignment\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept.vbprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Information Essential Systems\Assignment\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.Course_Form.resources
+C:\Users\Admin\Desktop\Information Essential Systems\Assignment\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.FacultyForm.resources
+C:\Users\Admin\Desktop\Information Essential Systems\Assignment\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.LoginForm.resources
+C:\Users\Admin\Desktop\Information Essential Systems\Assignment\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.Resources.resources
+C:\Users\Admin\Desktop\Information Essential Systems\Assignment\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.SelectionForm.resources
+C:\Users\Admin\Desktop\Information Essential Systems\Assignment\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.StudentForm.resources
+C:\Users\Admin\Desktop\Information Essential Systems\Assignment\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept.vbproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\Information Essential Systems\Assignment\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept.vbproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Information Essential Systems\Assignment\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.exe
+C:\Users\Admin\Desktop\Information Essential Systems\Assignment\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.xml
+C:\Users\Admin\Desktop\Information Essential Systems\Assignment\CSE_Dept_application\CSE_Dept_application\obj\Debug\CSE_Dept_application.pdb
