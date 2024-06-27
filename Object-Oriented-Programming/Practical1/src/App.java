@@ -1,3 +1,7 @@
+// Student name: Showan Simkhada
+// Student ID: 17459655
+// Pledge of Honor: I pledge by honor that this program is solely my own work.
+
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
