@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Assgnment1</string>
+    <string name="weight">Weight</string>
+    <string name="distance">Distance</string>
+    <string name="quit">Quit</string>
+    <string name="converter_app">Converter App</string>
+    <string name="convert">Convert</string>
+    <string name="convert_distance">Convert Distance</string>
+    <string name="kilometer">Kilometer</string>
+    <string name="miles">Miles</string>
+    <string name="convert_weight">Convert Weight</string>
+    <string name="kilogram">Kilogram</string>
+    <string name="pound">Pound</string>
+    <string name="type">Type</string>
+    <string name="convert_to_pound">Convert To Pound</string>
+    <string name="result">Result</string>
+</resources>

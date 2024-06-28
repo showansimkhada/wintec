@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">V7</string>
+    <string name="top">top</string>
+    <string name="bottom">bottom</string>
+    <string name="topTextInput">topTextInput</string>
+    <string name="bottomTextInput">bottomTextInput</string>
+    <string name="click_me">Click Me</string>
+</resources>

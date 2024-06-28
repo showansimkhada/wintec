@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="legs">Legs</string>
+    <string name="back">Back</string>
+    <string name="chest">Chest</string>
+    <string name="arms">Arms</string>
+    <string name="prev">Prev</string>
+    <string name="start">Start</string>
+
+    <string name="todo">TODO</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="backs">back</string>
+    <string name="todos">TODO</string>
+    <string name="todoss">TODO</string>
+    <string name="prevbutton">Button</string>
+    <string name="nextbutton">Button</string>
+    <string name="textview">TextView</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">V4</string>
+    <string name="Left">Left</string>
+    <string name="Right">Right</string>
+    <string name="Centre">Centre</string>
+    <string name="Bottom">Bottom</string>
+</resources>

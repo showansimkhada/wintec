@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_layout_create"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF43FA59"
+    tools:context=".Select_profile">
+
+    <EditText
+        android:id="@+id/editText_enter_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/enter_your_profile_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/button_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_enter_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:onClick="onCreateProfile"
+        android:text="@string/create" />
+
+    <TextView
+        android:id="@+id/textView_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_create"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/profile"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <TextView
+        android:id="@+id/textView_highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_create"
+        android:layout_alignStart="@+id/textView_profile"
+        android:layout_alignLeft="@+id/textView_profile"
+        android:layout_marginStart="160dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/score"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_profile"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textView_info1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recyclerView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/tap_to_choose_profile"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <TextView
+        android:id="@+id/textView_info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_info1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/swipe_right_to_delete"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@color/colorAccent" />
+
+</RelativeLayout>

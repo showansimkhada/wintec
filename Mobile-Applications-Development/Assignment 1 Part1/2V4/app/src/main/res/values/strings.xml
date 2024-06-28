@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">2V4</string>
+    <string name="samsung">Samsung</string>
+    <string name="send_to_samsung">Send to Samsung</string>
+    <string name="apple">Apple</string>
+    <string name="back_to_apple">Back To Apple</string>
+    <string name="type_message">Type Message</string>
+</resources>

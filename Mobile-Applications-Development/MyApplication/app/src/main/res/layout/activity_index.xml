@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000"
+    tools:context=".index"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <Button
+        android:id="@+id/chestButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="107dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/but2"
+        android:onClick="onChestClick"
+        android:text="@string/chest"
+        app:layout_constraintBottom_toTopOf="@+id/armButton"
+        app:layout_constraintEnd_toStartOf="@+id/backmbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/backmbutton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="114dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="52dp"
+
+        android:background="@drawable/but2"
+        android:onClick="onBackClick"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="@+id/chestButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/chestButton"
+        app:layout_constraintTop_toTopOf="@+id/chestButton" />
+
+    <Button
+        android:id="@+id/legButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="114dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="52dp"
+
+        android:background="@drawable/but2"
+        android:onClick="onLegClick"
+        android:text="@string/legs"
+        app:layout_constraintBottom_toBottomOf="@+id/armButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/armButton"
+        app:layout_constraintTop_toTopOf="@+id/armButton" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="3dp"
+        android:contentDescription="@string/todoss"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/armButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="107dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="52dp"
+
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/but2"
+        android:onClick="onArmsClick"
+        android:text="@string/arms"
+        app:layout_constraintBottom_toTopOf="@+id/prevButton"
+        app:layout_constraintEnd_toStartOf="@+id/legButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chestButton" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="384dp"
+        android:layout_height="167dp"
+        android:layout_marginBottom="52dp"
+        android:contentDescription="@string/todos"
+        app:layout_constraintBottom_toTopOf="@+id/chestButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/index1" />
+
+    <Button
+        android:id="@+id/prevButton"
+        android:layout_width="114dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="24dp"
+
+        android:background="@drawable/but1"
+        android:text="@string/backs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/armButton" />
+
+</android.support.constraint.ConstraintLayout>
+
+
+
