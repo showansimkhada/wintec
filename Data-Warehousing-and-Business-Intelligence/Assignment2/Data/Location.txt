@@ -1,0 +1,11 @@
+LocationID,City,Region,Country
+1,Sydney,New South Wales,Australia
+2,Los Angelea,California,US
+3,Tokyo,Shinjuku,Tokyo
+4,Seoul,Seoul Capital Area,South Korea
+5,Helsinki,Helsinki,Finland
+6,Hamilton,Waikato,New Zealand
+7,Auckland,Auckland,New Zealand
+8,Wellington,Wellington,New Zealand
+9,Rotorua,Waikato,New Zealand
+10,Napier,Hawkes Bay,New Zealand

@@ -1,0 +1,6 @@
+LocationID,City,Region,Country
+1,Sydney,New South Wales,Australia
+2,Los Angelea,California,US
+3,Tokyo,Shinjuku,Japan
+4,Seoul,Seoul Capital Area,South Korea
+5,Helsinki,Helsinki,Finland

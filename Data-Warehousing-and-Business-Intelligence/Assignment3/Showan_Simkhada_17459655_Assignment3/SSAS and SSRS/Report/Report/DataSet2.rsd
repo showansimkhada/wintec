@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet2">
+    <Query>
+      <DataSourceReference>SparkDW2017</DataSourceReference>
+      <CommandText>SELECT        DimSupplier.SupplierName, DimBranchLocation.City, FactInventory.UnitOut
+FROM            DimSupplier INNER JOIN
+                         FactInventory ON DimSupplier.SupplierID = FactInventory.SupplierID INNER JOIN
+                         DimBranchLocation ON FactInventory.BranchLocationID = DimBranchLocation.BranchLocationID</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="SupplierName">
+        <DataField>SupplierName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="City">
+        <DataField>City</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="UnitOut">
+        <DataField>UnitOut</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+    <Filters>
+      <Filter>
+        <FilterExpression>=Fields!UnitOut.Value</FilterExpression>
+        <Operator>TopPercent</Operator>
+        <FilterValues>
+          <FilterValue DataType="Float">10</FilterValue>
+        </FilterValues>
+      </Filter>
+    </Filters>
+  </DataSet>
+</SharedDataSet>

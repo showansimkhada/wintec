@@ -1,0 +1,6 @@
+SupplierID, SupplierName
+800, Apple
+801, Samsung
+802, Nokia
+803, Spark
+804, Sony

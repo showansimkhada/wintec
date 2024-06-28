@@ -1,0 +1,3 @@
+CategoryID, CategoryName
+101, Phone
+102, SIM

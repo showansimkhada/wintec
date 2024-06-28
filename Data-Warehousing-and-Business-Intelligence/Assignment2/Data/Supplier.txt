@@ -1,0 +1,6 @@
+SupplierID,SupplierName
+1,Apple
+2,Samsung
+3,Nokia
+4,Spark
+5,Sony

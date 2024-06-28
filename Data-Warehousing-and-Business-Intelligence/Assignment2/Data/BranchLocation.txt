@@ -1,0 +1,6 @@
+LocationID,City,Region,Country
+6,Hamilton,Waikato,New Zealand
+7,Auckland,Auckland,New Zealand
+8,Wellington,Wellington,New Zealand
+9,Rotorua,Waikato,New Zealand
+10,Napier,Hawkes Bay,New Zealand

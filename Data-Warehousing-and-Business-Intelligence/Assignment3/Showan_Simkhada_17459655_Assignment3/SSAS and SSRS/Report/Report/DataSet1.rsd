@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>SparkDW2017</DataSourceReference>
+      <CommandText>SELECT        FactInventory.DateID, DimSupplier.SupplierID, DimSupplier.SupplierName, DimSupplierLocation.SupplierLocationID, DimSupplierLocation.Country, DimCategory.CategoryID, DimCategory.CategoryName, 
+                         DimBranchLocation.BranchLocationID, DimBranchLocation.City, DimProduct.ProductID, DimProduct.ProductName, DimProduct.Color, DimProduct.Storage, FactInventory.UnitIn, FactInventory.TotalAmountIn, 
+                         FactInventory.UnitOut, FactInventory.TotalAmountOut
+FROM            DimSupplier INNER JOIN
+                         FactInventory ON DimSupplier.SupplierID = FactInventory.SupplierID INNER JOIN
+                         DimProduct ON FactInventory.ProductID = DimProduct.ProductID INNER JOIN
+                         DimCategory ON FactInventory.CategoryID = DimCategory.CategoryID INNER JOIN
+                         DimSupplierLocation ON DimSupplierLocation.SupplierLocationID = FactInventory.SupplierLocationID INNER JOIN
+                         DimBranchLocation ON DimBranchLocation.BranchLocationID = FactInventory.BranchLocationID</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="DateID">
+        <DataField>DateID</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="SupplierID">
+        <DataField>SupplierID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="SupplierName">
+        <DataField>SupplierName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="SupplierLocationID">
+        <DataField>SupplierLocationID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Country">
+        <DataField>Country</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CategoryID">
+        <DataField>CategoryID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="CategoryName">
+        <DataField>CategoryName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="BranchLocationID">
+        <DataField>BranchLocationID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="City">
+        <DataField>City</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ProductID">
+        <DataField>ProductID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="ProductName">
+        <DataField>ProductName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Color">
+        <DataField>Color</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Storage">
+        <DataField>Storage</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="UnitIn">
+        <DataField>UnitIn</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="TotalAmountIn">
+        <DataField>TotalAmountIn</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="UnitOut">
+        <DataField>UnitOut</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="TotalAmountOut">
+        <DataField>TotalAmountOut</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
